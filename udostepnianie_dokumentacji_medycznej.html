@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html
+  lang="pl"
+  class="scroll-smooth scroll-p-[120px] md:scroll-p-[90px] overflow-x-hidden overflow-y-scroll"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="W tym artykule znajdziesz wiele przydatnych informacji na temat udostępniania dokumentacji meedycznej"
+    />
+    <title>Udostępnianie dokumentacji medycznej</title>
+    <link rel="icon" type="image/icon" href="/img/favicon.png" />
+    <script type="module" crossorigin src="/assets/main-MLoTDkHQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-B1otE_1M.css">
+  </head>
+  <body class="overflow-x-hidden">
+    <nav
+      class="navbar fixed top-0 flex h-[120px] w-full justify-around items-center text-xl text-white transition-colors duration-[.3s] z-20 md:h-[90px] md:justify-center bg-custom-black"
+    >
+      <a
+        class="logo-mobile relative mt-[2em] font-decor text-4xl md:hidden"
+        href="index.html#home"
+        >M§CH
+        <span
+          class="absolute bottom-[4px] left-[-5px] w-[37px] h-[1px] bg-white"
+        ></span>
+        <span
+          class="absolute bottom-[0px] left-[-5px] w-[37px] h-[1px] bg-white"
+        ></span>
+        <span
+          class="absolute bottom-[0px] right-[-5px] w-[65px] h-[1px] bg-white"
+        ></span>
+        <span
+          class="absolute bottom-[4px] right-[-5px] w-[65px] h-[1px] bg-white"
+        ></span
+      ></a>
+      <div
+        class="nav-items w-full h-[100vh] absolute top-0 translate-x-[100%] flex flex-col justify-center items-center md:translate-x-0 bg-[rgba(15,21,29,0.8)] backdrop-blur-[7px] md:flex md:flex-row md:h-[90px] md:bg-[rgba(0,0,0,0.0)] md:backdrop-blur-0 uppercase text-center font-light transition-all duration-[.3s]"
+      >
+        <a
+          class="nav-item relative group p-3 my-3 text-2xl md:mx-[1em] md:text-base lg:text-lg"
+          href="index.html#home"
+          >Strona główna
+          <span
+            class="absolute bottom-0 left-0 right-0 scale-0 h-[1px] bg-white group-hover:w-full transition-all duration-[.3s] group-hover:scale-[(1)]"
+          ></span
+        ></a>
+        <a
+          class="nav-item group relative p-3 my-3 text-2xl md:mx-[1em] md:text-base lg:text-lg"
+          href="index.html#aboutme"
+          >O mnie<span
+            class="absolute bottom-0 left-0 right-0 scale-0 h-[1px] bg-white group-hover:w-full transition-all duration-[.3s] group-hover:scale-[(1)]"
+          ></span
+        ></a>
+        <a
+          class="nav-item relative logo-desktop hidden font-decor decoration-double md:block md:mx-[1em] lg:mx-[2em] md:mt-5 md:text-3xl"
+          href="index.html#home"
+          >M§CH
+          <span
+            class="absolute bottom-[4px] left-[-5px] w-[32px] h-[1px] bg-white"
+          ></span>
+          <span
+            class="absolute bottom-[0px] left-[-5px] w-[32px] h-[1px] bg-white"
+          ></span>
+          <span
+            class="absolute bottom-[0px] right-[-5px] w-[53px] h-[1px] bg-white"
+          ></span>
+          <span
+            class="absolute bottom-[4px] right-[-5px] w-[53px] h-[1px] bg-white"
+          ></span>
+        </a>
+        <a
+          class="nav-item group relative p-3 my-3 text-2xl md:mx-[1em] md:text-base lg:text-lg"
+          href="index.html#offert"
+          >Zakres usług
+          <span
+            class="absolute bottom-0 left-0 right-0 scale-0 h-[1px] bg-white group-hover:w-full transition-all duration-[.3s] group-hover:scale-[(1)]"
+          ></span
+        ></a>
+        <a
+          class="nav-item group relative p-3 my-3 text-2xl md:mx-[1em] md:text-base lg:text-lg"
+          href="index.html#blog"
+          >Blog
+          <span
+            class="absolute bottom-0 left-0 right-0 scale-0 h-[1px] bg-white group-hover:w-full transition-all duration-[.3s] group-hover:scale-[(1)]"
+          ></span
+        ></a>
+      </div>
+      <button
+        name="menu-burger button"
+        aria-label="Menu-burger"
+        class="burger-icon group absolute top-[50%] right-[40px] w-[40px] h-[40px] translate-y-[-50%] z-10 md:hidden"
+      >
+        <div
+          data-number="1"
+          class="icon-line w-full h-[4px] bg-white group-hover:bg-custom-blue my-2 rounded-lg transition-all duration-[.3s]"
+        ></div>
+        <div
+          data-number="2"
+          class="icon-line w-full h-[4px] bg-white group-hover:bg-custom-blue my-2 rounded-lg transition-all duration-[.3s]"
+        ></div>
+        <div
+          data-number="3"
+          class="icon-line w-full h-[4px] bg-white group-hover:bg-custom-blue my-2 rounded-lg transition-all duration-[.3s]"
+        ></div>
+      </button>
+    </nav>
+    <header class="mt-[5em]">
+      <h1 class="py-[2em] mt-[4em] text-3xl text-center md:mt-[2em]">
+        Udostępnienie dokumentacji medycznej
+      </h1>
+      <div
+        class="cookie-box fixed bottom-0 left-0 m-[2em] px-[2em] py-[4em] flex flex-col justify-center items-center h-[400px] text-xs text-center bg-[#f8f8f8] text-black rounded-[10px] border-2 border-custom-green animate-customShow sm:text-sm md:px-[4em] md:py-[5em] lg:h-[300px] lg:px-[10em] z-10 opacity-0 translate-y-[100%]"
+      >
+        <p>
+          Ta strona internetowa korzysta z plików cookies, aby zapewnić
+          najlepsze możliwe doświadczenie dla naszych użytkowników. Pliki
+          cookies wykorzystywane na naszej stronie są niezbędne do działania
+          naszej strony internetowej. Bez nich niektóre funkcje nie będą działać
+          prawidłowo. Klikając przycisk "Akceptuj", zgadzasz się na
+          wykorzystywanie plików cookies zgodnie z naszą polityką plików
+          cookies. Jeśli nie zgadzasz się na korzystanie z plików cookies,
+          możesz zmienić ustawienia swojej przeglądarki internetowej lub opuścić
+          naszą stronę. Więcej informacji znajdziesz w naszej
+          <a
+            aria-label="Dowiedz się więcej o polityce prywatności"
+            href="./polityka_prywatnosci.html"
+            class="underline hover:text-custom-green text-[13px] font-bold transition-colors duration-[.2s]"
+            >Polityce prywatności</a
+          >
+        </p>
+        <button
+          name="Akceptuj"
+          class="cookie-btn mt-[2em] py-[1em] px-[1.5em] bg-custom-green hover:bg-[rgb(44,138,122)] text-[16px] text-white uppercase rounded-[8px] transition-colors duration-[.3s] cursor-pointer"
+        >
+          Akceptuj
+        </button>
+      </div>
+    </header>
+    <main class="px-[1em]">
+      <div class="wrapper">
+        <div
+          class="first-section flex flex-col justify-center items-center lg:flex-row"
+        >
+          <img
+            src="./img/documentation.jpg"
+            alt=""
+            class="m-[2em] mt-[0em] w-[100%] max-w-[400px]"
+          />
+          <div class="text">
+            <p>
+              Udostepnienie dokumentacji medycznej to jedno z najczęściej
+              opisywanych zagadnień związanych z ochroną danych w Placówkach
+              Medycznych. Na ten temat powstało już wiele opracowań, jednak
+              problematyka ta, wciąż stanowi temat interesujący i wymagający
+              naszej uwagi.
+            </p>
+            <p class="mt-[1em]">
+              Żądanie pacjenta udostępnienia mu dokumentacji medyczne stanowi
+              jego podstawowe uprawnienie określone przepisami prawa. Z tym
+              uprawnieniem dla Placówki Medycznej, wiąże się jednak jeden z
+              podstawowych jej obowiązków, określonych w Rozporządzeniu Ministra
+              Zdrowia z dnia 6 kwietnia 2020 r. w sprawie rodzajów, zakresu i
+              wzorów dokumentacji medycznej oraz sposobu jej przetwarzania.
+            </p>
+          </div>
+        </div>
+        <h2 class="my-[1em] text-2xl lg:mt-[0em]">
+          Czy każdy podmiot jest obowiązany do prowadzenia DM?
+        </h2>
+        <p>
+          Prowadzenie dokumentacji medycznej jest to obowiązek każdej Placówki i
+          nie ma tu znaczenia czy jest to placówka prywatna czy publiczna, czy
+          jest to mały gabinet lekarski czy sieć przychodni. Każdy podmiot,
+          który udziela świadczeń zdrowotnych obowiązany jest dokumentacje
+          medyczną prowadzić a na żądanie pacjenta ją udostępnić. Wydanie kopi
+          dokumentacji medycznej pacjentowi należy odróżnić od udzielenia mu
+          informacji i wydani kopi jego danych osobowych. Udostepnienie
+          dokumentacji medycznej i realizacja prawa osoby fizycznej do
+          pozyskiwania kopii jej danych osobowych opierają się o dwa odrębne
+          podstawy prawne przepisy ustawy o prawach pacjenta (art.27 UPP) i
+          Rzeczniku Praw Pacjenta i rozporządzenia RODO (art.15 RODO).
+        </p>
+        <div
+          class="red-text my-[2em] mx-auto py-[1em] px-[2em] w-[100%] max-w-[600px] bg-red-500 text-white border-2 border-slate-400 rounded-[5px]"
+        >
+          <p>
+            Pacjent ma prawo do dostępu do dokumentacji medycznej dotyczącej
+            jego stanu zdrowia oraz udzielonych mu świadczeń zdrowotnych. *art.
+            23 ust. 1 ustawy o prawach pacjenta i Rzeczniku Praw Pacjenta
+          </p>
+        </div>
+        <p>
+          Pamiętać należy także, że Placówka ma obowiązek udostępnić
+          dokumentację medyczną nie tylko swoim aktywnym pacjentom, ale również
+          i tym którzy kiedyś korzystali z naszych świadczeń oraz tych którzy
+          chcą skorzystać z usług innej Placówki. Obowiązek Placówki Medycznej
+          dotyczący przechowywania i udostępniania dokumentacji medycznej trwa
+          przez czas określony przepisami ustawy o prawach pacjenta, generalnie
+          20 lat, licząc od końca roku kalendarzowego, w którym dokonano
+          ostatniego wpisu.
+        </p>
+        <h3 class="my-[1em] text-2xl">Sposób udostępnienia DM</h3>
+        <p>
+          Pacjent, chcący skorzystać z przysługującego mu prawa do udostepnienia
+          mu dokumentacji medycznej, powinien złożyć w tym zakresie stosowny
+          wniosek do podmiotu udzielającego świadczeń zdrowotnych. Wniosek ten,
+          nie ma określonej formy, zatem może być złożony pisemnie, ustnie bądź
+          za pośrednictwem środków komunikacji elektronicznej. Skuteczność
+          złożenia przedmiotowego wniosku nie może być także uzależnione od
+          wskazania przez pacjenta celu jej udostępnienia.
+        </p>
+        <p class="text-2xl my-[2em]">
+          Udostępnienie dokumentacji medycznej jest możliwe poprzez:
+        </p>
+        <ul class="list-disc">
+          <li>
+            udostepnienie jej <b>do wglądu</b>, w miejscu udzielania świadczeń
+            zdrowotnych albo w siedzibie podmiotu udzielającego świadczeń
+            zdrowotnych, z zapewnieniem możliwości sporządzenia notatek lub
+            zdjęć, jeśli prowadzimy dokumentację w formie elektronicznej
+            udostępnienie do wglądu dotyczy także baz danych w zakresie ochrony
+            zdrowia,
+          </li>
+          <li>
+            przez sporządzenie jej <b>wyciągu</b>, <b>odpisu</b>,
+            <b>kopii lub wydruku</b>,
+          </li>
+          <li>za pośrednictwem <b>środków komunikacji elektronicznej</b>,</li>
+          <li>na <b>informatycznym nośniku danych</b>.</li>
+        </ul>
+        <div
+          class="second-section mt-[2em] flex flex-col justify-center items-center md:flex-row md:items-start"
+        >
+          <div class="img-container">
+            <img
+              src="./img/doctor.jpg"
+              alt="Lekarz trzymający w ręku dokumentację"
+              class="w-[100%] max-w-[450px]"
+            />
+          </div>
+          <div class="text-container mt-[2em] md:ml-[3em]">
+            <p class="text-xl mb-[1em]">
+              Co kryje się pod wskazanymi pojęciami? :
+            </p>
+            <ul class="list-disc">
+              <li>
+                <b>kopia</b> - to dokument wytworzony przez odwzorowanie
+                oryginału dokumentacji medycznej, w formie kserokopii albo
+                odwzorowania cyfrowego (skanu),
+              </li>
+              <li>
+                <b>wyciąg</b> - to skrótowy dokument zawierający wybrane
+                informacje lub dane z całości dokumentacji medycznej,
+              </li>
+              <li>
+                <b>odpis</b> - to dokument wytworzony przez przepisanie tekstu z
+                oryginału dokumentacji medycznej z wiernym zachowaniem zgodności
+                co do treści z oryginałem.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="mt-[1em]">
+          Oryginał dokumentacji medycznej, Placówka ma obowiązek udostępnić
+          jedynie na żądanie uprawnionych do tego podmiotów. Wówczas
+          dokumentacje udostępniamy przez wydanie oryginału za potwierdzeniem
+          odbioru i z zastrzeżeniem zwrotu po wykorzystaniu, na żądanie organów
+          władzy publicznej albo sądów powszechnych.
+        </p>
+        <p class="mt-[1em]">
+          Jeśli prowadzimy dokumentację w formie papierowej, możemy udostępnić
+          ją (jeśli takie jest żądanie pacjenta) w postaci kopii w formie
+          odwzorowania cyfrowego (skanu) za pośrednictwem korespondencji e-mail
+          lub zgrywając dokumentację na nośniki typu pendrive lub płyta CD.
+        </p>
+        <p class="my-[2em] text-2xl">Odpłatność??</p>
+        <p>
+          Udostępnienie dokumentacji do wglądu w miejscu udzielania świadczeń
+          lub siedzibie Placówki jest <b>bezpłatne</b>. <b>Pierwszy</b> wyciąg,
+          odpis, kopia lub wydruk oraz sporządzenie kopii w formie odwzorowania
+          cyfrowego (skanu) na informatycznym nośniku danych, dokumentacji
+          medycznej musi być udostępniana pacjentowi przez <b>bezpłatnie</b> .
+          Kolejne udostępnienie dokumentacji medycznej temu samemu pacjentowi,
+          jeśli obejmuje ono ten sam <b>zakres lub sposób udostępnienia</b> (tj.
+          ponowne sporządzenie wyciągu, odpisu, kopii, wydruku, czy skanu na
+          informatycznym nośniku) danych może być <b>odpłatne</b>.
+        </p>
+        <div
+          class="text-container flex flex-col justify-center items-center md:flex-row"
+        >
+          <div
+            class="red-text my-[2em] mx-auto py-[1em] px-[2em] w-[100%] max-w-[600px] bg-red-500 text-white border-2 border-slate-400 rounded-[5px]"
+          >
+            <p>
+              Obowiązek prowadzenia wykazu zawierającego informacje dotyczące
+              udostępnianej dokumentacji medycznej wynika z art. 27 ust. 4 UPP
+            </p>
+          </div>
+          <p class="md:ml-[2em]">
+            Udostępnienie dokumentacji medycznej jest także
+            <b>nieodpłatne</b> m.in. w związku z postępowaniem w sprawie
+            przyznania świadczenia kompensacyjnego prowadzonym przez Rzecznika
+            Praw Pacjenta czy w związku z postępowaniem przed wojewódzką komisją
+            do spraw orzekania o zdarzeniach medycznych.
+          </p>
+        </div>
+        <p class="mt-[1em]">
+          Odpłatność jest regulowana w odniesieniu do publikowanej przez prezesa
+          Głównego Urzędu Statystycznego wysokości przeciętnego wynagrodzenia w
+          poprzednim kwartale danego roku.
+        </p>
+        <p class="mt-[1em]">
+          Dlatego też warto w tym miejscu podkreślić istotność i przydatność
+          prowadzonego rejestru udostepnienia dokumentacji medycznej, co
+          umożliwi kontrolowanie zakresów i sposobów bezpłatnie już wydawanych
+          dokumentacji.
+        </p>
+        <p class="mt-[1em]">
+          Informacje o wysokości opłaty podaje się do wiadomości pacjentów.
+          Najlepszym sposobem na przedstawienie tej informacji jest jej
+          wywieszenie w widoczny sposób w Placówce i na stronie internetowej
+          podmiotu wykonującego działalność leczniczą. Jeśli Placówka ma
+          obowiązek umieszczania danych w BIP, informacja ta powinna wówczas
+          znaleźć się również na stronie BIP.
+        </p>
+        <div
+          class="red-text my-[2em] mx-auto py-[1em] px-[2em] w-[100%] max-w-[600px] bg-red-500 text-white border-2 border-slate-400 rounded-[5px] text-center"
+        >
+          <p>
+            Maksymalne opłaty za udostępnienie dokumentacji medycznej w okresie
+            01.12.2023 - 29.02.2024
+          </p>
+        </div>
+        <img
+          src="./img/table_1.jpg"
+          alt="tabela przedstawiająca Maksymalne opłaty za udostępnienie dokumentacji medycznej w okresie
+        01.12.2023 - 29.02.2024"
+          class="mx-auto"
+        />
+        <p class="my-[2em] text-xl">Kiedy można odmówić udostepnienia DM?</p>
+        <p>
+          Co do zasady nie można odmówić pacjentowi udostepnienia dokumentacji
+          medycznej. Będzie to mogło mieć miejsce jedynie w nadzwyczajnych
+          wypadkach np. gdy nie będziemy w posiadaniu przedmiotowej
+          dokumentacji, ponieważ uległa ona zniszczeniu bądź zaginęła, staliśmy
+          się ofiarą ataku hackerskiego i utraciliśmy czasowo dostęp do
+          dokumentacji a nie wykonywaliśmy kopii zapasowej.
+        </p>
+        <div
+          class="container mt-[2em] flex flex-col justify-center items-center md:flex-row md:items-start md:justify-between"
+        >
+          <div class="text mt-[1em] md:w-[450px]">
+            <p>
+              Oczywiście sytuacje te nie powinny mieć miejsca, po to Placówka
+              Medyczna wdraża odpowiednie zabezpieczenia techniczne oraz
+              organizacyjne, aby uniknąć właśnie takich naruszeń.
+            </p>
+            <p class="mt-[1em]">
+              Oczywiście udostepnienie dokumentacji medycznej wiąże się z
+              koniecznością upewnienia się pracownika Placówki, czy osoba
+              występująca ze stosownym wnioskiem jest do tego umocowana, tj. czy
+              z wnioskiem zwraca się pacjent, którego dokumentacja dotyczy
+              (zweryfikowano tożsamość pacjenta), przedstawiciel ustawowy
+              pacjenta (rodzic) czy osoba upoważniona przez pacjenta.
+            </p>
+            <p class="mt-[1em]">
+              Jeżeli jednak zmuszeni jesteśmy odmówić udostepnienie dokumentacji
+              medycznej, zawsze powinniśmy odnotować ten fakt w formie pisemnej
+              (elektronicznej lub papierowej) informując pacjenta o przyczynie
+              odmowy.
+            </p>
+          </div>
+          <div
+            class="red-text my-[2em] mx-auto py-[1em] px-[2em] w-[100%] max-w-[600px] bg-red-500 text-white border-2 border-slate-400 rounded-[5px] md:ml-[1em] md:mr-[1em]"
+          >
+            <p>
+              Placówka Medyczna ma obowiązek zweryfikować tożsamość pacjenta.
+              <br />
+              <br />
+              Dokumentem potwierdzającym tożsamość może być: <br />
+              ⦁ dowód osobisty, <br />
+              ⦁paszport, <br />
+              ⦁ paszport obywatela Ukrainy ze stemplem Straży Granicznej RP,
+              <br />
+              ⦁ prawo jazdy, <br />
+              ⦁ karta pobytu, <br />
+              ⦁ dokument podróży <br /><br />
+              W sytuacji, gdy pacjent odmawia okazania dokumentu weryfikującego
+              jego tożsamość, pracownik Placówki może poprosić pacjenta o
+              podanie np.nr PESEL lub innego numer identyfikacyjnego ustnie lub
+              pisemnie (otrzymane na piśmie dane niezwłocznie po wprowadzeniu do
+              systemu usuwamy)
+            </p>
+          </div>
+        </div>
+        <img
+          src="./img/doctor_2.jpg"
+          alt="Lekarz trzymający w ręku dokumentację"
+          class="w-[100%] max-w-[550px] mx-auto my-[1em]"
+        />
+        <p class="my-[1em] text-2xl">Upoważnienie</p>
+        <p>
+          Pacjent ma prawo dostępu do swojej dokumentacji medycznej. Może być
+          ona również udostępniona jego przedstawicielowi ustawowemu bądź osobie
+          upoważnionej przez pacjenta.
+        </p>
+        <p class="mt-[1em]">
+          Podstawowym elementem upoważnienia jest weryfikacja, czy pochodzi ono
+          od osoby uprawnionej tj. pacjenta, którego dotyczy wniosek, dlatego
+          też bardzo często Placówki Medyczne, odbierają od pacjentów
+          oświadczenie woli w tym przedmiocie przy pierwszej wizycie. Pracownicy
+          Placówki Medycznej mają wówczas pewność, że upoważnienie zostało
+          złożone przez pacjenta a udostepnienie danych osobie trzeciej, w taki
+          sposób upoważnionej nie będzie niosło za sobą ryzyka niezgodnego z
+          prawem działania.
+        </p>
+        <p class="mt-[1em]">
+          Nie jest to jednak jedyna, zgodna z prawem możliwość złożenia
+          oświadczenia woli pacjenta w przedmiocie upoważnienia osoby trzeciej
+          do jego dokumentacji medycznej. Pacjent ma prawo w każdej chwili
+          upoważnić wskazaną przez siebie osobę do jego dokumentacji. Placówka
+          nie może wymagać, w przypadku przedłożenia upoważnienia w późniejszym
+          czasie, aby było ono potwierdzane przed notariuszem bądź posiadało
+          inną, szczególną formę. Wówczas pracownik Placówki medycznej będzie
+          działał w zaufaniu do dokumentu, który został mu przedłożony przez
+          osobę trzecią. Oczywiście weryfikujemy znajdujące się w nim dane
+          pacjenta i osoby upoważnionej, oraz jeśli wszystko zgadza się
+          realizujemy żądanie z upoważnienia. Takie upoważnienie przechowujemy w
+          aktach wydawanej dokumentacji.
+        </p>
+        <p class="my-[1em]">
+          Drugim podstawowym elementem upoważnienia jest wskazanie danych osoby,
+          która ma prawo zapoznać się z dokumentacją medyczną pacjenta czy np.
+          ją odebrać.
+        </p>
+      </div>
+    </main>
+    <footer class="relative pt-[5em] pb-[1em] bg-custom-green text-white">
+      <img
+        src="./img/logo_kirp_small.jpg"
+        alt="logo KIRP"
+        class="absolute top-5 left-5 w-[75px] md:hidden"
+      />
+      <img
+        src="./img/logo_kirp.jpg"
+        alt="logo KIRP"
+        class="absolute hidden top-10 left-10 w-[200px] md:block"
+      />
+      <div class="links-container flex flex-col justify-center items-center">
+        <a href="index.html#home" class="mb-[2em] text-3xl font-decor">M§CH</a>
+        <a href="./polityka_prywatnosci.html" class="mb-[2em]"
+          >Polityka Prywatności</a
+        >
+      </div>
+      <p class="mt-[1em] px-[2em] text-center">
+        &copy;2024 Copyright by Radca Prawny Monika Chutnik. Wszelkie prawa
+        zastrzeżone.
+      </p>
+    </footer>
+  </body>
+</html>
